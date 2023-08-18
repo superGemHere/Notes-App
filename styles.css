@@ -23,13 +23,18 @@ h1{
     margin-right: 25px;
 }
 
+.input-section{
+    word-wrap: break-word;
+}
+
 .container{
     margin-top: 30px ;
     text-align: center;
     display: inline-flexbox;
     align-items: center;
     justify-content: center;
-    height: fit-content
+    height: fit-content;
+    word-wrap: break-word;
     
 }
 
@@ -42,16 +47,20 @@ h1{
 }
 
 .content{
-
-width: 100%;
+    border: solid 3px;
+width: 90%;
 max-width: 500px;
 min-height: 150px;
+height: fit-content;
 background-color: #fff;
 color: #333;
 padding: 20px;
 margin: 20px 0;
 outline: none;
 border-radius: 5px;
+overflow-x: hidden;
+overflow-wrap: break-word;
+word-wrap: break-word;
 }
 
 .enterBtn{
